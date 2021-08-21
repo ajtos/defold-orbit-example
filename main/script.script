@@ -1,0 +1,5 @@
+function init(self)
+	go.animate("center", "euler.z", go.PLAYBACK_LOOP_FORWARD, 360, go.EASING_LINEAR, 200 / 60 )
+	-- counter spin
+	go.animate("orbit", "euler.z", go.PLAYBACK_LOOP_FORWARD, -360, go.EASING_LINEAR, 200 / 60 )
+end
